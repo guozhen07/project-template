@@ -1,11 +1,11 @@
 module.exports = {
   // 默认情况下，Vue CLI 会假设你的应用是被部署在一个域名的根路径上，例如 https://www.my-app.com/。
   // 如果应用被部署在一个子路径上，你就需要用这个选项指定这个子路径。例如，如果你的应用被部署在 https://www.my-app.com/my-app/，则设置 publicPath 为 /my-app/。
-  publicPath: process.env.NODE_ENV === "production" ? "./" : "/",
+  // publicPath: process.env.NODE_ENV === "production" ? "./" : "/",
   // 当运行 vue-cli-service build 时生成的生产环境构建文件的目录。
   // 注意目标目录在构建之前会被清除 (构建时传入 --no-clean 可关闭该行为)。
   // 默认值'dist'
-  outputDir: "my-app",
+  outputDir: "dist",
   // 放置生成的静态资源 (js、css、img、fonts) 的目录(相对于outputDir目录)。
   // 默认值''
   assetsDir: "",
